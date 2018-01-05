@@ -1,7 +1,7 @@
 Sample - Springboot application deployed on AWS
 ===========================================
-### Setup
-1. Add credentials in application.yml for AWS account
+### Config changes
+- Add AWS credentials(access key and secret) in application.yml for AWS account
 ### Usage of S3 SDK
 - Get list of files in bucket
   - URL: localhost:9001/data; Method: GET
