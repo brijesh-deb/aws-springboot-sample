@@ -1,0 +1,12 @@
+spring: 
+  application: 
+    name: SpringbootAWSsample
+
+server:
+  port: 9001
+  
+amazonProperties:
+  endpointUrl: https://s3.amazonaws.com
+  accessKey: [xxxxxxxx]
+  secretKey: [xxxxxxxx]
+  bucketName: brij-bucket
