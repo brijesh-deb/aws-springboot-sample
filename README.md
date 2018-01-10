@@ -1,7 +1,8 @@
 Sample - Springboot application deployed on AWS
 ===========================================
-### Config changes
+### Config changes (for local)
 - Add AWS credentials(access key and secret) in application.yml for AWS account
+- Note: For running the application from EC2 instance, instead of providing credential in application.tml, use attach IAM Role with EC2 instance to grant access to S3. [Refer](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-roles.html)
 ### Usage of S3 SDK
 - Get list of files in bucket
   - URL: localhost:9001/data; Method: GET
